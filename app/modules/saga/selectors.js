@@ -1,0 +1,76 @@
+export const splashEnd = (state) => state.reducerSplash.splashEnd;
+
+export const getUserInfo = (state) => state.reducerForLogin.userInfo;
+export const getUserEmail = (state) => state.reducerForLogin.user_email;
+export const getUserBirthday = (state) => state.reducerForLogin.birthday;
+export const getBranchText = (state) => state.reducerForLogin.branch_text;
+export const getFullName = (state) => state.reducerForLogin.full_name;
+export const getDeptText = (state) => state.reducerForLogin.dept_text;
+export const getGenderText = (state) => state.reducerForLogin.gender_text;
+export const getPositionText = (state) => state.reducerForLogin.position_text;
+export const getUserToken = (state) => state.reducerForLogin.user_token;
+export const getLoginAndPasswordAndNavig = (state) => state.reducerForLogin.loginAndPassword;
+export const getCountryText = (state) => state.reducerForLogin.country_text;
+export const getCityText = (state) => state.reducerForLogin.city_text;
+export const getBranchId = (state) => state.reducerForLogin.branch_id;
+export const getGenderId = (state) => state.reducerForLogin.gender_id;
+export const getPositionId = (state) => state.reducerForLogin.position_id;
+export const getCityId = (state) => state.reducerForLogin.city_id;
+
+export const getUpdateInfo = (state) => state.reducerChangeInfo.updateInfo;
+export const getSelectedPos = (state) => state.reducerChangeInfo.selectedPos;
+export const getSelectedDept = (state) => state.reducerChangeInfo.selectedDepartment;
+export const getPosition = (state) => state.reducerChangeInfo.position;
+
+export const getDepartment = (state) => state.reducerForMyprofile.department;
+export const getDeptAndPos = (state) => state.reducerForMyprofile.deptAndPosition;
+
+export const getData = (state) => state.reducerForCityCountryGender.cityCountryGenderData;
+export const getCountryList = (state) => state.reducerForCityCountryGender.countryList;
+export const getCityList = (state) => state.reducerForCityCountryGender.cityList;
+export const getGenderList = (state) => state.reducerForCityCountryGender.genderList;
+export const getBranchList = (state) => state.reducerForCityCountryGender.branchList;
+export const getDepartmentList = (state) => state.reducerForCityCountryGender.departmentList;
+export const getPositionList = (state) => state.reducerForCityCountryGender.positionList;
+export const getSelectedCountry = (state) => state.reducerForCityCountryGender.selectedCountry;
+export const getSelectedCity = (state) => state.reducerForCityCountryGender.selectedCity;
+export const getSelectedBranch = (state) => state.reducerForCityCountryGender.selectedBranch;
+export const getSelectedDepartment = (state) => state.reducerForCityCountryGender.selectedDepartment;
+export const getSelectedGenderId = (state) => state.reducerForCityCountryGender.selectedGender.id;
+export const getSelectedPositionId = (state) => state.reducerForCityCountryGender.selectedPosition.id;
+export const getUserData = (state) => state.reducerForCityCountryGender.userData;
+export const getBirthday = (state) => state.reducerForCityCountryGender.birthday;
+export const getRegistrationAnswer = (state) => state.reducerForCityCountryGender.registrationAnswer;
+export const getCommentDate = (state) => state.reducerMyRating.commentDate;
+export const getRateOthersSecondPartOfUrl = (state) => state.reducerForRateOthers.secondPartOfUrl;
+export const getAllUsersSecondPartOfUrl = (state) => state.reducerForAllUsers.secondPartOfUrl;
+export const getDataForMap = (state) => state.reducerMyRating.dataByToday;
+export const getUrlFirstPart = (state) => state.reducerForSettingsScreen.serverUrlFirstPart;
+export const getLanguageName = (state) => state.reducerForSettingsScreen.languageString;
+export const getTriggerServer = (state) => state.reducerForSettingsScreen.triggerServer;
+export const getTriggerLanguage = (state) => state.reducerForSettingsScreen.triggerLanguage;
+
+export const getLocalizationTrigger = (state) => state.reducerForLogin.trigger;
+export const getDataForOthers = (state) => state.reducerForRateOthers.otherUserInfo;
+export const getStars = (state) => state.reducerForReview.stars;
+export const getReview = state => state.reducerForReview.review;
+export const readyToSend = state => state.reducerForReview.bool;
+export const getChoosenDateForOthers = state => state.reducerForRatingAndComment.date;
+export const getRatingAndCommentByDate = state => state.reducerForRatingAndComment.ratingAndCommentByDate;
+export const ratingAndCommentForToday = state => state.reducerForRatingAndComment.ratingAndComment;
+export const getAllOtherUserInfo = state => state.reducerForAllUsers.allOtherUserInfo;
+export const getIsAllUser = state => state.reducerForAllUsers.isAllUser;
+export const getAllUsersSearchTrigger = state => state.reducerForAllUsers.searchTrigger;
+export const getMyAvgToday = state => state.reducerForStatistics.myAvgToday;
+export const getMyAvgCurrentMonth = state => state.reducerForStatistics.myAvgCurrentMonth;
+export const getMyAvgLastMonth = state => state.reducerForStatistics.myAvgLastMonth;
+export const getLastMonthAvgRating = state => state.reducerForStatistics.lastMonthAvgRating;
+export const getYesterdayAvgRating = state => state.reducerForStatistics.yesterdayAvgRating;
+export const getAllUsersDataForMap = state => state.reducerForAllUsers.data;
+export const getAllUsersSearchText = state => state.reducerForAllUsers.searchText;
+export const getSettingsTrigger = state => state.reducerForLogin.settingsTriggerForBack;
+export const getServerDataForVote = (state) => state.reducerForRateOthers.data;
+export const getSearchTextFromRateOthers = (state) => state.reducerForRateOthers.searchText;
+export const getTriggerFromRateOthers = (state) => state.reducerForRateOthers.trigger;
+export const getSearchTriggerFromRateOthers = (state) => state.reducerForRateOthers.searchTrigger;
+

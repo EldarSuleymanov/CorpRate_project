@@ -1,0 +1,4 @@
+export const constants = {
+    SET_DEPT: 'SET_DEPT',
+    SET_DEPARTMENT_AND_POSITION: 'SET_DEPARTMENT_AND_POSITION',
+};
